@@ -1,0 +1,22 @@
+ul {
+
+
+  li {
+    cursor: pointer;
+    padding: 0.5rem;
+
+    &:hover {
+      background-color: rgb(202, 202, 202);
+      color: white;
+    }
+
+    &.alert:hover {
+      background-color: #cff4fc;
+    }
+  }
+
+}
+
+.alert {
+  padding: 0.5rem;
+}
