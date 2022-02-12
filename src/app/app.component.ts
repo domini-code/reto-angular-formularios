@@ -9,6 +9,7 @@ export class AppComponent {
   cities = ['Barcelona', 'Madrid', 'Lima', 'Quito'];
   name!: string;
   selection!: string;
+  criteria = ''
 
   title = 'Día 12 del reto';
   url = 'https://carconfigurator.ferrari.com/assets/cars/portofinom/packages/default/car-ferrari-portofino-m_splash.jpg';
