@@ -11,7 +11,7 @@ export class AppComponent {
   selection!: string;
   criteria = ''
 
-  title = 'Día 12 del reto';
+  title = 'Día 13 del reto';
   url = 'https://carconfigurator.ferrari.com/assets/cars/portofinom/packages/default/car-ferrari-portofino-m_splash.jpg';
 
   addNewCity(city: string): void {
@@ -27,7 +27,6 @@ export class AppComponent {
 
   onSearch(): void {
     console.log('OnSearch');
-
   }
 
 }
