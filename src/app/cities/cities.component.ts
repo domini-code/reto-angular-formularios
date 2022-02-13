@@ -3,12 +3,10 @@ import { Component, Input, EventEmitter, Output, ChangeDetectionStrategy } from 
 @Component({
   selector: 'app-cities',
   template: ` 
-  <ul>
   <li (click)="onCityClicked(city)"
     [ngClass]="{'alert alert-info': city === selection}">
     {{city | titlecase}}
-  </li>
-</ul>`,
+  </li>`,
   styleUrls: ['./cities.component.scss'],
   changeDetection: ChangeDetectionStrategy.OnPush
 })
